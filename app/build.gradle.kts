@@ -18,7 +18,7 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
             buildConfigField("String", "API_KEY","\"3cdd99d33ed026201557a865d7bd527d\"")
-            buildConfigField("String","BASE_URL","\"https://api.themoviedb.org/3\"")
+            buildConfigField("String","BASE_URL","\"https://api.themoviedb.org/3/\"")
             useSupportLibrary = true
         }
     }
@@ -83,7 +83,7 @@ dependencies {
     implementation("androidx.room:room-ktx:$room_version")
     kapt("androidx.room:room-compiler:$room_version")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
-    implementation ("com.google.dagger:dagger:2.51.1")
+    kapt ("com.google.dagger:dagger:2.51.1")
     annotationProcessor ("com.google.dagger:dagger-compiler:2.51.1")
     implementation ("com.squareup.retrofit2:retrofit:2.11.0")
     implementation ("com.squareup.retrofit2:converter-gson:2.11.0")
