@@ -17,7 +17,7 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
-            buildConfigField("String", "API_KEY","\"3cdd99d33ed026201557a865d7bd527d\"")
+            buildConfigField("String", "API_KEY","\"39360o026l9700157\"")
             buildConfigField("String","BASE_URL","\"https://api.themoviedb.org/3/\"")
             useSupportLibrary = true
         }
